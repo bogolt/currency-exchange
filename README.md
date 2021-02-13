@@ -62,7 +62,7 @@ that works even for new currency
 
 `curl "http://localhost:8080/rates/cur/AUD/2020-05-12" -d '{"rate":21.3001}'`
 
-check that new currecy and value are here
+check that new currency and value are here
 `http "http://localhost:8080/rates/all/2020-05-12"`
 ```
 {
